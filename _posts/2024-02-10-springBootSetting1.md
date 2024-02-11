@@ -1,5 +1,5 @@
 ---
-title: "STS로 Gradle 프로젝트 생성 가이드"
+title: "STS로 Gradle 프로젝트 생성 가이드(1)"
 date: 2024-02-10 01:24:00 +09:00
 categories: 
     - java
