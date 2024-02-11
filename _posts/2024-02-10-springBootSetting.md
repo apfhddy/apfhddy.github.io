@@ -9,7 +9,7 @@ categories:
 STS는 설치가 되있기에 바로 프로젝트를 세팅해보겠다.
 
 ## 프로젝트 설치
-<img src="/img/스크린샷 2024-02-10 175951.png" style="width:70%;">
+<img src="/img/스크린샷 2024-02-10 175951.png" style="width:70%;">  
 사진에 보이는 것 처럼 Spring starter Project를 클릭한다.
 
 <img src="/img/스크린샷 2024-02-11 004524.png" style="width:70%;">
