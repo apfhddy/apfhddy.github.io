@@ -49,6 +49,9 @@ static에 html파일을 생성할 거다.
 이제 home.html파일을 template 파일로 옮기고 재실행하면 다시 연결 돼 었다. 이제 컨트롤러 디폴트 경로는 tamplate란 것을 확인 한것이다.
   
 이렇게 오늘 추가 한 Tymeleaf는 동적 서버를 만들어주는 Dependecy라는 것을 알 수 있다.
+  
+다음 번에는 Tymeleaf에 대해 알아 보겠다.
+
 
 
 
