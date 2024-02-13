@@ -50,7 +50,7 @@ static에 html파일을 생성할 거다.
   
 이렇게 오늘 추가 한 Tymeleaf는 동적 서버를 만들어주는 Dependecy라는 것을 알 수 있다.
   
-Tymeleaf문법에 대해선 [Tymeleaf정리](https://www.elancer.co.kr/blog/view?seq=158) 
+Tymeleaf문법에 대해선 [Tymeleaf정리](/java/spring%20boot/tymeleaf/) 
 
 
 
