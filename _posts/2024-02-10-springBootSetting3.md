@@ -50,7 +50,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 <img src="/img/스크린샷 2024-02-14 131654.png" style="width: 40%;">  
 위 사진처럼 패키지안에 mapper패키지를 생성해주고 안에 class가 아닌 interface파일을 생성해준다.
 
-<img src="/img/스크린샷 2024-02-14 132226.png" style="width: 50%;">
+<img src="/img/스크린샷 2024-02-14 132226.png" style="width: 50%;">  
 사진처럼 @Mapper을 붙여 마퍼라는 것을 명시해줘야 한다.
 안에 함수는 바로 아래에 설명해보겠다.  
 난 이렇게 세팅을 해둿는데 내 xml파일을 보여주며 설명을 해보겠다.
