@@ -16,8 +16,8 @@ Oracle Setting
 ```properties
 spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521/xe
-spring.datasource.username= youId
-spring.datasource.password= youPassword
+spring.datasource.username=youId
+spring.datasource.password=youPassword
 ```
 오라클은 계정 정보를 적어주면된다.
 
@@ -31,6 +31,34 @@ mybatis.mapper-locations=classpath:mybatis/*.xml
 classpath는 src/main/resources의 경로를 가진다.  
 이제 그럼 표기한 위치에 xml파일을 만들어주면된다.
 
-<img src="/img/스크린샷 2024-02-14 125210.png" style="width: 40%;">
+<img src="/img/스크린샷 2024-02-14 125210.png" style="width: 40%;">  
+resources안에 mybatis패키지 생성후 .xml로 끝나는 파일을 생성하면된다.
+
+xml안에는 아래코드를 추가해주면 된다.
+```xml
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="namespace는 좀 이따 설명해 주겠다. 일단은 다음으로 넘어가자">
+	<!-- SQL문들을 작성하는 파일 -->
+	
+</mapper>
+```
+
+<img src="/img/스크린샷 2024-02-14 131654.png" style="width: 40%;">
+위 사진처럼 패키지안에 mapper패키지를 생성해주고 안에 class가 아닌 interface파일을 생성해준다.
+
+<img src="/img/스크린샷 2024-02-14 132226.png" style="width: 70%;">
+
+
+
+
+
+
+
+
+
+
 
 
