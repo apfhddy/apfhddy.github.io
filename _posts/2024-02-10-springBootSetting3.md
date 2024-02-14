@@ -9,7 +9,7 @@ categories:
 이글을 작성하므로서 되게 단간히 정리하려고 한다.
 
 ## 1. 초기 설정
-일단 Dependecy를 추가햐여야 한다. SQL안에 Mybatis와 Oracle Driver을 추가하면 된다.
+일단 Dependecy를 추가햐여야 한다. SQL안에 Mybatis와 Oracle Driver을 추가하면 된다.  
 그러고 application.properties안에 Oracle계정및 Mybatis의 xml파일 경로를 설정을 해야한다.   
 
 Oracle Setting
@@ -31,6 +31,7 @@ mybatis.mapper-locations=classpath:mybatis/*.xml
 classpath는 src/main/resources의 경로를 가진다.  
 이제 그럼 표기한 위치에 xml파일을 만들어주면된다.
 
+## 2. xml파일 추가
 <img src="/img/스크린샷 2024-02-14 125210.png" style="width: 40%;">  
 resources안에 mybatis패키지 생성후 .xml로 끝나는 파일을 생성하면된다.
 
@@ -45,7 +46,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 	
 </mapper>
 ```
-
+## 3. mapper Interface 추가
 <img src="/img/스크린샷 2024-02-14 131654.png" style="width: 40%;">  
 위 사진처럼 패키지안에 mapper패키지를 생성해주고 안에 class가 아닌 interface파일을 생성해준다.
 
