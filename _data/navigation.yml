@@ -18,8 +18,9 @@ sidebar-category:
         url: "/java/spring"
       - title: "Spring Boot"
         url: "/java/springBoot"
-      - title: "카테고리C"
-        url:  "/CategoryC"
   - title: "Git"
     children:
       - title: "Tutorial"
+  - title: "WEB"
+    children:
+      - title: "Http"
