@@ -24,3 +24,7 @@ sidebar-category:
   - title: "WEB"
     children:
       - title: "Http"
+  - title: "EN"
+    children:
+      - title: "Quiz"
+        url: "/en/quiz"
