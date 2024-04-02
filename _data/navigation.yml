@@ -18,9 +18,14 @@ sidebar-category:
         url: "/java/spring"
       - title: "Spring Boot"
         url: "/java/springBoot"
+  - title: "React"
+    children:
+      - title: "Tutorial"
+       url: "/react/tutorial"
   - title: "Git"
     children:
       - title: "Tutorial"
+       url: "/git/tutorial"
   - title: "WEB"
     children:
       - title: "Http"
