@@ -21,11 +21,11 @@ sidebar-category:
   - title: "React"
     children:
       - title: "Tutorial"
-       url: "/react/tutorial"
+        url: "/react/tutorial"
   - title: "Git"
     children:
       - title: "Tutorial"
-       url: "/git/tutorial"
+        url: "/git/tutorial"
   - title: "WEB"
     children:
       - title: "Http"
