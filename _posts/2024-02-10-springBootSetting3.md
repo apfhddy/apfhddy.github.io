@@ -13,7 +13,7 @@ categories:
 그러고 application.properties안에 Oracle계정및 Mybatis의 xml파일 경로를 설정을 해야한다.   
 
 Oracle Setting
-```properties
+```properties 
 spring.datasource.driver-class-name=oracle.jdbc.driver.OracleDriver
 spring.datasource.url=jdbc:oracle:thin:@localhost:1521/xe
 spring.datasource.username=youId
